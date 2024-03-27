@@ -13,7 +13,7 @@ public class BuscaBinaria {
     public static int buscaPrimeiraOcorrencia(Produto[] produtos, double preco) {
         int esquerda = 0, direita = produtos.length - 1, meio, resultado = -1;
         while (esquerda <= direita) {
-            meio = esquerda + (direita - esquerda) / 2;
+            meio = (esquerda + direita) / 2;
             if (preco == produtos[meio].getPreco()) {
                 resultado = meio; // encontrado, continua buscando à esquerda
                 direita = meio - 1;

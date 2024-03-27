@@ -15,7 +15,7 @@ public class BuscaBinaria {
         int direita = array.length - 1;
 
         while (esquerda <= direita) {
-            int meio = esquerda + (direita - esquerda) / 2;
+            int meio = (esquerda + direita) / 2;
             int compara = array[meio].getTitulo().compareTo(chave.getTitulo());
 
             if (compara == 0) {

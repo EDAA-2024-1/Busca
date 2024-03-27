@@ -26,7 +26,7 @@ public class Ex06 {
         boolean acertou = false;
 
         while (esquerda <= direita && !acertou) {
-            int meio = esquerda + (direita - esquerda) / 2;
+            int meio = (esquerda + direita) / 2;
             System.out.println("Eu acho que o seu número é: " + meio);
             System.out.println("Seu número é 'alto', 'baixo', ou 'correto'?");
             String resposta = scanner.nextLine().trim().toLowerCase();

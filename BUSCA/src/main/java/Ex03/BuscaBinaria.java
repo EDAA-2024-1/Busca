@@ -14,7 +14,7 @@ public class BuscaBinaria {
         int esquerda = 0, direita = lista.length - 1, meio;
 
         while (esquerda <= direita) {
-            meio = esquerda + (direita - esquerda) / 2;
+            meio = (esquerda + direita) / 2;
 
             if (lista[meio] == alvo) {
                 return meio; // alvo encontrado
