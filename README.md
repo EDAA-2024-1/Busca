@@ -56,4 +56,9 @@ int[] listaNumeros = { 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64,
  - Implemente um algoritmo de busca binária para retornar o índice do número 99.
  - Qual o seu índice? E para o número 81? Qual o seu índice?
 
-4. 
+4. Você está na biblioteca procurando um livro específico. Os livros estão organizados em ordem alfabética. Implemente uma busca binária para encontrar rapidamente a posição do livro que você deseja.
+
+5. Você está desenvolvendo um aplicativo para monitorar a variação de preços de um produto específico ao longo do tempo. Os preços estão armazenados em um array ordenado por data. Encontre a primeira e a última ocorrência de um preço específico para determinar o período em que ele permaneceu inalterado.
+
+6. Você está pensando em um número entre 1 e 100. O computador tentará adivinhar o número usando o mínimo de tentativas possível. Após cada tentativa, você deve informar ao computador se o número que ele adivinhou é muito alto, muito baixo ou correto. O computador deve utilizar estratégia de busca binária para adivinhar o número de forma eficiente.
+
