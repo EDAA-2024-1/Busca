@@ -1,6 +1,6 @@
 # Busca
 
-1.Dado o código:
+1. Dado o código:
 
 int[] listaNumeros = { 40, 63, 40, 36, 10, 89, 74,
 32, 59, 13, 29, 12, 40, 8, 11, 63, 1, 52,
