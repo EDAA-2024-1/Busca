@@ -53,7 +53,7 @@ int[] listaNumeros = { 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64,
 75, 76, 77, 78, 79, 80, 81,
 82, 83, 84, 85, 86, 87, 88, 89,
 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100 };
- - Implemente um algoritmo de busca binária para retornar o índice do número
+ - Implemente um algoritmo de busca binária para retornar o índice do número 99.
  - Qual o seu índice? E para o número 81? Qual o seu índice?
 
 4. 
