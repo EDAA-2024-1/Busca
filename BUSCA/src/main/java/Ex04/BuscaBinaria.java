@@ -10,13 +10,13 @@ package Ex04;
  */
 public class BuscaBinaria {
 
-   public static int buscar(Livro[] array, Livro chave) {
+   public static int buscar(Livro[] array, String chave) {
         int esquerda = 0;
         int direita = array.length - 1;
 
         while (esquerda <= direita) {
             int meio = (esquerda + direita) / 2;
-            int compara = array[meio].getTitulo().compareTo(chave.getTitulo());
+            int compara = array[meio].getTitulo().compareTo(chave);
 
             if (compara == 0) {
                 return meio; // Encontrou

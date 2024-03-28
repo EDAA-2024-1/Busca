@@ -27,9 +27,8 @@ public class Ex04 {
 
         System.out.println("Informe o titulo do livro que deseja buscar: ");
         String titulo = input.nextLine();
-        Livro livroBusca = new Livro(titulo, "", 0); 
         
-        indice = BuscaBinaria.buscar(livros, livroBusca);
+        indice = BuscaBinaria.buscar(livros, titulo);
         System.out.println(indice != -1 ? "Livro encontrado na posição: " + indice + "\n"+livros[indice].toString(): "Livro não encontrado.");
 
     }
